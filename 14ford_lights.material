@@ -1,0 +1,92 @@
+material 14ford_dash_tsL	
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+                anim_texture 14ford_tsL.png	2 0
+            }
+        }
+    }
+}
+material 14ford_dash_tsR
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+                anim_texture 14ford_tsR.png	2 0
+            }
+        }
+    }
+}
+material 14ford_dash_IEL
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+                anim_texture 14ford_IEL.png	2 0
+            }
+        }
+    }
+}
+//mirrors
+material 14ford_lm 
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture vidscreen-disabled.png
+			}
+		}
+	}
+}
+material 14ford_lmB 
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture vidscreen-disabled.png
+			}
+		}
+	}
+}
+material 14ford_rm 
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture vidscreen-disabled.png
+			}
+		}
+	}
+}
+material 14ford_rmB 
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture vidscreen-disabled.png
+			}
+		}
+	}
+}

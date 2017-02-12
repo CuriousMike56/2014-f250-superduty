@@ -1,0 +1,58 @@
+6.7
+{
+	trigger_source	engine
+	pitch_source		engine_rpm
+	gain_factors	0.2	0.3
+	sound	1000.0	6.7Idle.wav
+	sound	2050.0	6.7.wav
+	sound	3100.0	6.7.wav
+	sound	4000.0	6.7.wav
+}
+starter6.7
+{
+	trigger_source	starter
+	sound	unpitched	6.7Start.wav
+        
+}
+ignition351V8
+{
+ 	trigger_source ignition
+	start_sound unpitched ford_ignition_351V8.wav
+//	sound unpitched 6.7Off.wav
+//	stop_sound unpitched 6.7Off.wav
+}
+horn
+{
+	trigger_source	horn
+	start_sound	unpitched ford_hornstart.wav
+	sound		unpitched ford_horn.wav
+	stop_sound	unpitched ford_hornend.wav
+}
+indicator
+{
+ 	trigger_source turn_signal
+ 	start_sound unpitched ford_indicatorstart.wav
+ 	sound unpitched ford_indicator.wav
+	stop_sound unpitched ford_indicatorend.wav
+}
+pbrake
+{
+	trigger_source parking_brake
+ 	start_sound unpitched ford_pbrake.wav
+}
+skid
+{
+	trigger_source screetch
+	pitch_source	screetch
+	pitch_factors	0.39 0.48
+	gain_source	 screetch
+	gain_factors	0.00 1.0
+	sound 1 ford_tiresqueal.wav
+}
+break
+{
+	trigger_source  break
+	gain_source	break
+	gain_factors	1.0 0.003
+	sound unpitched ford_break.wav
+}

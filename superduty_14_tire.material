@@ -1,0 +1,25 @@
+material Material.001/TEXFACE/superduty_14_tire.png
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 0.500000 0.500000 0.500000 1.000000
+			diffuse 0.450000 0.450000 0.450000 1.000000
+			emissive 0.000000 0.000000 0.000000 1.000000
+			texture_unit
+			{
+				texture superduty_14_tire.png
+				colour_op modulate
+			}
+		}
+		pass
+		{
+			ambient 0.0 0.0 0.0
+			diffuse 0.0 0.0 0.0
+			specular 0.000000 0.000000 0.000000 1.000000 0.250000
+			scene_blend add
+		}
+	}
+}
