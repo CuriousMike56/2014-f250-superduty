@@ -776,7 +776,12 @@ set_node_defaults -1, 0.3, -1, -1
 ;Cab Lights
 565, 0.311642, 0.932938, 0.072124, n
 566, 0.311642, 0.932938, -0.059770, n
-
+;
+567, -1.003878, 0.992598, 0.504495, n
+568, -1.073084, 0.992598, 0.249882, n
+569, -1.073084, 0.992598, 0.000620, n
+570, -1.073084, 0.992598, -0.252795, n
+571, -1.014251, 0.992598, -0.511714, n
 
 beams
 ;Frame
@@ -2371,6 +2376,31 @@ set_beam_defaults 8000000, 1500, 50000000, 20000000000, 0.02, tracks/beamblack, 
 180, 566, i
 565, 242, i
 566, 189, i
+;
+567, 568, i
+568, 569, i
+569, 570, i
+570, 571, i
+184, 571, i
+191, 571, i
+191, 570, i
+191, 567, i
+191, 568, i
+191, 569, i
+244, 567, i
+244, 568, i
+244, 569, i
+567, 569, i
+237, 567, i
+569, 571, i
+243, 567, i
+243, 568, i
+190, 569, i
+243, 569, i
+190, 570, i
+185, 571, i
+190, 571, i
+238, 567, i
 
 
 ;Cross
@@ -4841,24 +4871,16 @@ set_node_defaults -1, 0.95, -1, -1
 0.47, 0.277, 1, 20, 128, 132, 122, 1, 1, 86, 50.0, 100000.0, 500.0, r, 14ford_wheelR.mesh tracks/trans
 0.47, 0.277, 1, 20, 122, 126, 128, 1, 1, 87, 50.0, 100000.0, 500.0, l, 14ford_wheelR.mesh tracks/trans
 
-
-;AF_BravoSF8.mesh tracks/trans  		
-;SForgedsF007-8.mesh tracks/trans
-;superduty_14_rim.mesh tracks/trans
-;superduty_14_rim_nolock.mesh tracks/trans
-
-
-
 ;Tires
 flexbodies
-104, 109, 569, 0, 0, 0, 0, 0, 0, superduty_14_tire.mesh 
-forset 109, 104, 569-608
-94, 99, 609, 0, 0, 0, 0, 0, 0, superduty_14_tire.mesh 
-forset 99, 94, 609-648
-128, 132, 649, 0, 0, 0, 0, 0, 0, superduty_14_tire.mesh 
-forset 132, 128, 649-688
-122, 126, 689, 0, 0, 0, 0, 0, 0, superduty_14_tire.mesh 
-forset 126, 122, 689-728
+104, 109, 574, 0, 0, 0, 0, 0, 0, superduty_14_tire.mesh 
+forset 109, 104, 574-613
+94, 99, 614, 0, 0, 0, 0, 0, 0, superduty_14_tire.mesh 
+forset 99, 94, 614-653
+128, 132, 654, 0, 0, 0, 0, 0, 0, superduty_14_tire.mesh 
+forset 132, 128, 654-693
+122, 126, 694, 0, 0, 0, 0, 0, 0, superduty_14_tire.mesh 
+forset 126, 122, 694-733
 
 axles
 w1(104 109), w2(94 99), d(sol)
@@ -5846,12 +5868,20 @@ flares2
 555,  288, 291,    0,    0,    0,    R,            -1,        0,  -0.6 default
 
 ;cab lights
+;rear
 565, 241, 188, 0,    0,    0,    b,            -1,        0,  -0.4 tracks/brakeflare
 566, 241, 188, 0,    0,    0,    b,            -1,        0,  -0.4 tracks/brakeflare
+;front
+567, 237, 184,    0,    0,    0,    f,            -1,        0,  -0.133 tracks/blinkflare
+568, 237, 184,    0,    0,    0,    f,            -1,        0,  -0.133 tracks/blinkflare
+569, 237, 184,    0,    0,    0,    f,            -1,        0,  -0.133 tracks/blinkflare
+570, 237, 184,    0,    0,    0,    f,            -1,        0,  -0.133 tracks/blinkflare
+571, 237, 184,    0,    0,    0,    f,            -1,        0,  -0.133 tracks/blinkflare
 
 materialflarebindings
 5, 14ford_dash_tsL
 2, 14ford_dash_tsR
+22, 14ford_cablights
 
 
 end
