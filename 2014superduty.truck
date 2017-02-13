@@ -78,11 +78,6 @@ TractionControl 2.25, 0.70, 200, 2000, mode: OFF
 
 
 managedmaterials
-;mirrors
-;14ford_lm mesh_standard vidscreen-disabled.png -
-;14ford_lmB mesh_standard vidscreen-disabled.png -
-;14ford_rm mesh_standard vidscreen-disabled.png -
-;14ford_rmB mesh_standard vidscreen-disabled.png -
 set_managedmaterials_options 1
 FordExt14Chassis		mesh_standard		FordExt14Chassis.png		FordExt14Chassis_S.png
 SForgedsF007-8		mesh_standard		SForgedsF007-8.png		SForgedsF007-8_s.png
