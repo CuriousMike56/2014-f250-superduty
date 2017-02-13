@@ -10,4 +10,4 @@ Current credits:
 - Venomox - Tow hitch
 - Michael10055 (Myself) - Everything else
 
-DO NOT USE ANY CONTENT FROM THIS IN OTHER GAMES.
+__**I do not want to see any content from this used in other games.**__
