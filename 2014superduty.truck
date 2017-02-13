@@ -93,7 +93,6 @@ Tsl_AF			mesh_standard		Tsl_AF.png
 14ford_wheelR mesh_standard 14ford_wheelR_tex.png 14ford_wheelR_tex_S.png
 sd_emblem mesh_standard sd_emblem.png sd_gen-spec.png
 14ford_hitch mesh_standard 14ford_hitch.png 14ford_hitch.png 
-;F550_cablights mesh_standard 650-lights.dds -
 
 F250-ExtGlass		mesh_transparent		F250-ExtGlass.png F250-ExtGlass_S.png			
 
@@ -4903,7 +4902,7 @@ forset 464 - 467, 19, 17, 45, 43
 ;CAB
 148, 146, 147, 0, 0, 0, 0, 0, 0, F250ExtCab.mesh
 forset 149 - 256
-148, 146, 147, 0, 0, 0, 0, 0, 0, superduty_14_cablights.mesh
+148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_cablights.mesh
 forset 149 - 256
 148, 146, 147, 0, 0, 0, 0, 0, 0, F250ExtDoor.mesh
 forset 480 - 493,494 - 507
