@@ -79,23 +79,18 @@ TractionControl 2.25, 0.70, 200, 2000, mode: OFF
 
 managedmaterials
 set_managedmaterials_options 1
+;chassis
 FordExt14Chassis		mesh_standard		FordExt14Chassis.png		FordExt14Chassis_S.png
-SForgedsF007-8		mesh_standard		SForgedsF007-8.png		SForgedsF007-8_s.png
+;body
 Ford-F250-EXT		mesh_standard		Ford-F250-EXT-Red.png			Ford-F250-EXT_S-2.png
-AF_BravoSF8		mesh_standard		AF_BravoSF8.png			AF_BravoSF8_S.png
-Tsl_AF			mesh_standard		Tsl_AF.png
+;wheels
 14ford_wheelF mesh_standard 14ford_wheelF_tex.png 14ford_wheelF_tex_S.png
 14ford_wheelR mesh_standard 14ford_wheelR_tex.png 14ford_wheelR_tex_S.png
+;glass
+F250-ExtGlass		mesh_transparent		F250-ExtGlass.png F250-ExtGlass_S.png			
+;extras
 sd_emblem mesh_standard sd_emblem.png sd_gen-spec.png
 14ford_hitch mesh_standard 14ford_hitch.png 14ford_hitch.png 
-
-F250-ExtGlass		mesh_transparent		F250-ExtGlass.png F250-ExtGlass_S.png			
-
-;sd_trim mesh_standard sd_trim.png sd_trim-spec.png
-;sd_tire mesh_standard sd_tire.png
-;set_managedmaterials_options 1
-;sd_body mesh_standard sd_body_red.png sd_gen-spec.png
-
 ;interior
 set_managedmaterials_options 0
 14ford_int mesh_standard 14interior-tex.png
