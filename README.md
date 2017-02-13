@@ -9,3 +9,5 @@ Current credits:
 - Sean - Sounds
 - Venomox - Tow hitch
 - Michael10055 (Myself) - Everything else
+
+DO NOT USE ANY CONTENT FROM THIS IN OTHER GAMES.
