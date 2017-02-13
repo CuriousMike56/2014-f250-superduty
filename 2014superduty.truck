@@ -4127,7 +4127,7 @@ set_beam_defaults 8000000, 1000, 40000, 2000000000, 0.02, tracks/beamblack, 1
 463, 75, is
 
 ;Hitch
-set_beam_defaults 10000000, 2000, 160000, 20000000000, 0.02, tracks/beamblack, 1
+set_beam_defaults 10000000, 2000, 900000000000000000, 9000000000000000000000000000, 0.02, tracks/beamblack, 1
 464, 465, i
 464, 466, i
 467, 464, i
