@@ -12,7 +12,7 @@ material 14ford_cablights
 			emissive 0.000000 0.000000 0.000000 1.000000
 			texture_unit
 			{
-				texture 650-lights.dds
+				texture 14ford_cablights.dds
 				tex_address_mode wrap
 				filtering trilinear
 				colour_op alpha_blend
