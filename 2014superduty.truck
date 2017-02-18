@@ -4879,7 +4879,7 @@ fusedrag
 76, 58, autocalc, 0.1, NACA0009.afl
 35, 9, autocalc, 0.1, NACA0009.afl
 
-;flexbodies
+flexbodies
 ;148, 146, 147, 0, 0, 0, 0, 0, 0, FordExt14Chassis.mesh
 ;forset 0-81
 ;148, 146, 147, 0, 0, 0, 0, 0, 0, FordExtFrontaxle.mesh
@@ -4910,10 +4910,10 @@ fusedrag
 ;forset 464 - 467, 19, 17, 45, 43
 ;
 ;;CAB
-;148, 146, 147, 0, 0, 0, 0, 0, 0, F250ExtCab.mesh
-;forset 149 - 256
-;148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_cablights.mesh
-;forset 149 - 256
+148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_extcab.mesh
+forset 149 - 256
+148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_cablights.mesh
+forset 149 - 256
 ;148, 146, 147, 0, 0, 0, 0, 0, 0, F250ExtDoor.mesh
 ;forset 480 - 493,494 - 507
 ;148, 146, 147, 0, 0, 0, 0, 0, 0, F250ExtDoorExt.mesh
@@ -4948,36 +4948,36 @@ fusedrag
 ;148, 146, 147, 0, 0, 0, 0, 0, 0, TailLight.mesh
 ;forset 277 - 336
 ;
-;;interior 
-;;main
-;148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_int.mesh
-;forset 149 - 256
-;;dash
-;148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_dash.mesh
-;forset 149 - 256
-;148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_steerholder.mesh
-;forset 149 - 256
-;148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_int_steerfiller.mesh
-;forset 149 - 256
-;;dash icons
-;148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_dash_labels.mesh
-;forset 149 - 256
-;148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_dash_tsL.mesh
-;forset 149 - 256
-;148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_dash_tsR.mesh
-;forset 149 - 256
-;;seats
-;148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_seatint.mesh
-;forset 0-81
-;;door panels
-;148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_frdoorpanel.mesh
-;forset 480 - 493
-;148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_fldoorpanel.mesh
-;forset 494 - 507
-;148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_rldoorpanel.mesh
-;forset 524 - 534
-;148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_rrdoorpanel.mesh
-;forset 535 - 545
+;interior 
+;main
+148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_int.mesh
+forset 149 - 256
+;dash
+148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_dash.mesh
+forset 149 - 256
+148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_steerholder.mesh
+forset 149 - 256
+148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_int_steerfiller.mesh
+forset 149 - 256
+;dash icons
+148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_dash_labels.mesh
+forset 149 - 256
+148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_dash_tsL.mesh
+forset 149 - 256
+148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_dash_tsR.mesh
+forset 149 - 256
+;seats
+148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_seatint.mesh
+forset 0-81
+;door panels
+148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_frdoorpanel.mesh
+forset 480 - 493
+148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_fldoorpanel.mesh
+forset 494 - 507
+148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_rldoorpanel.mesh
+forset 524 - 534
+148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_rrdoorpanel.mesh
+forset 535 - 545
 
 props
 ;steering
