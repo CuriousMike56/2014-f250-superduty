@@ -4909,44 +4909,44 @@ flexbodies
 ;148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_hitch.mesh
 ;forset 464 - 467, 19, 17, 45, 43
 ;
-;;CAB
+;CAB
 148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_extcab.mesh
 forset 149 - 256
 148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_cablights.mesh
 forset 149 - 256
-;148, 146, 147, 0, 0, 0, 0, 0, 0, F250ExtDoor.mesh
-;forset 480 - 493,494 - 507
-;148, 146, 147, 0, 0, 0, 0, 0, 0, F250ExtDoorExt.mesh
-;forset 524 - 534,535 - 545
-;148, 146, 147, 0, 0, 0, 0, 0, 0, F250ExtHood.mesh
-;forset 361 - 380
-;148, 146, 147, 0, 0, 0, 0, 0, 0, F250ExtHeadlight.mesh
-;forset 402 - 407, 408 - 413
-;148, 146, 147, 0, 0, 0, 0, 0, 0, F250ExtFender.mesh
-;forset 337 - 347, 349 - 359
-;148, 146, 147, 0, 0, 0, 0, 0, 0, F250ExtFascia.mesh
-;forset 385 - 401
-;148, 146, 147, 0, 0, 0, 0, 0, 0, F250ExtBedExt.mesh
-;forset 277 - 336
-;148, 146, 147, 0, 0, 0, 0, 0, 0, F250ExtTailgateExt.mesh
-;forset 437 - 446
-;148, 146, 147, 0, 0, 0, 0, 0, 0, F250ExtBumperF.mesh
-;forset 414 - 436
-;148, 146, 147, 0, 0, 0, 0, 0, 0, F250ExtBumperR.mesh
-;forset 447 - 463
-;148, 146, 147, 0, 0, 0, 0, 0, 0, BaseTailLight.mesh
-;forset 277 - 336
+148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_doorF.mesh
+forset 480 - 493,494 - 507
+148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_doorR.mesh
+forset 524 - 534,535 - 545
+148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_hood.mesh
+forset 361 - 380
+148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_headlight.mesh
+forset 402 - 407, 408 - 413
+148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_fenderF.mesh
+forset 337 - 347, 349 - 359
+148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_grille.mesh
+forset 385 - 401
+148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_bed.mesh
+forset 277 - 336
+148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_tailgate.mesh
+forset 437 - 446
+148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_bumperF.mesh
+forset 414 - 436                 
+148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_bumperR.mesh
+forset 447 - 463
+148, 146, 147, 0, 0, 0, 0, 0, 0, BaseTailLight.mesh
+forset 277 - 336
 ;
-;148, 146, 147, 0, 0, 0, 0, 0, 0, F250ExtCabGlass.mesh
-;forset 149 - 256
-;148, 146, 147, 0, 0, 0, 0, 0, 0, F250ExtFDoorGlass.mesh
-;forset 480 - 493,494 - 507
-;148, 146, 147, 0, 0, 0, 0, 0, 0, F250ExtRDoorGlass.mesh
-;forset 524 - 534,535 - 545
-;148, 146, 147, 0, 0, 0, 0, 0, 0, LightGlass.mesh
-;forset 402 - 407, 408 - 413
-;148, 146, 147, 0, 0, 0, 0, 0, 0, TailLight.mesh
-;forset 277 - 336
+148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_extcabglass.mesh
+forset 149 - 256
+148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_doorFglass.mesh
+forset 480 - 493,494 - 507
+148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_doorRglass.mesh
+forset 524 - 534,535 - 545
+148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_headlightglass.mesh
+forset 402 - 407, 408 - 413
+148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_taillightglass.mesh
+forset 277 - 336
 ;
 ;interior 
 ;main
@@ -5067,7 +5067,7 @@ props
 515, 514, 512, 0.9, 0.60, 0, -90, 90, 0, 14ford_rmB.mesh
 
 flexbodies
-148, 146, 147, 0, 0, 0, 0, 0, 0, F250ExtMirror2.mesh
+148, 146, 147, 0, 0, 0, 0, 0, 0, 14ford_mirrors.mesh
 forset 508 - 515, 516 - 523
 
 videocamera
