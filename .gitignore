@@ -1,2 +1,6 @@
 *.xml
 *.log
+*.mtl
+*.obj
+*.bat
+chassis-meshes
