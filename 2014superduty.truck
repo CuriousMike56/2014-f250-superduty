@@ -5066,6 +5066,16 @@ detacher_group 21
 189,538,1,1,1.0,2.68,7,8,ifp Rear_Right_Door
 193,536,1,1,1.0,2.1,7,8,ifp Rear_Right_Door
 detacher_group 0
+;Rear Suspension Stiffness
+set_beam_defaults 90000, 5, 120000, 180000, 0.02, tracks/beamblack, 1
+
+68,130,1,1,1.0,3.0,23,24,if Rear_Stiffness
+68,124,1,1,1.0,3.0,23,24,if Rear_Stiffness
+;
+72,131,1,1,1.0,3.0,23,24,if Rear_Stiffness
+72,125,1,1,1.0,3.0,23,24,if Rear_Stiffness
+set_beam_defaults 9000000, 100, 120000, 180000, 0.02, tracks/beamblack, 1
+
 
 set_beam_defaults 1500000.0, 10.0, 120000000, 200000000000, 0.02, tracks/beamblack, 1
 
