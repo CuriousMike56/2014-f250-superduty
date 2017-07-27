@@ -94,7 +94,7 @@ F250-ExtGlass		mesh_transparent		F250-ExtGlass.png F250-ExtGlass_S.png
 ;extras
 sd_emblem mesh_standard sd_emblem.png sd_gen-spec.png
 14ford_hitch mesh_standard 14ford_hitch.png 14ford_hitch.png
-ford_goose    mesh_standard    ford_goose.png    ford_goose_s.png
+14ford_goose mesh_standard    14ford_goose.png    14ford_goose_s.png
 ;interior
 set_managedmaterials_options 0
 14ford_int mesh_standard 14interior-tex.png
@@ -4773,7 +4773,7 @@ forset 90,91,127,133
 forset 464-467,19,17,45,43
   148,  146,  147, 0, -2.1, 0, 0, 0, 0, 14ford_hitch.mesh
 forset 464-467,19,17,45,43
-  148,  146,  147, 0, -2.1, 0, 0, 0, 0, ford_goose.mesh
+  148,  146,  147, 0, -2.1, 0, 0, 0, 0, 14ford_goose.mesh
 forset 0-81
 
 ;CAB
