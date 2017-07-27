@@ -84,7 +84,7 @@ set_managedmaterials_options 1
 ;chassis
 FordExt14Chassis		mesh_standard		FordExt14Chassis.png		FordExt14Chassis_S.png
 ;body
-Ford-F250-EXT		mesh_standard		Ford-F250-EXT-Red.png			Ford-F250-EXT_S-2.png
+Ford-F250-EXT		mesh_standard		Ford-F250-EXT-Red.png			Ford-F250-EXT_S-3.png
 ;wheels
 14ford_wheelF mesh_standard 14ford_wheelF_tex.png 14ford_wheelF_tex_S.png
 14ford_wheelR mesh_standard 14ford_wheelR_tex.png 14ford_wheelR_tex_S.png
