@@ -17,6 +17,7 @@ author sounds 78 Sean
 author tow_hitch 46 Venomox
 author node_renumberer 5251 Lifter
 author sc_meshes 584 4x4convoy
+author gooseneck_hitch 106 The_Wolf
 
 fileinfo 2014_sd, 146, 1.1
 
@@ -93,6 +94,7 @@ F250-ExtGlass		mesh_transparent		F250-ExtGlass.png F250-ExtGlass_S.png
 ;extras
 sd_emblem mesh_standard sd_emblem.png sd_gen-spec.png
 14ford_hitch mesh_standard 14ford_hitch.png 14ford_hitch.png
+ford_goose    mesh_standard    ford_goose.png    ford_goose_s.png
 ;interior
 set_managedmaterials_options 0
 14ford_int mesh_standard 14interior-tex.png
@@ -746,6 +748,10 @@ set_node_defaults -1, 0.3, -1, -1
   547,    -1.0731,     0.9926,     0.0006, n
   548,    -1.0731,     0.9926,    -0.2528, n
   549,    -1.0143,     0.9926,    -0.5117, n
+  
+;Gooseneck hitch
+  550, 1.24, -0.1, 0, h
+
 
 beams
 ;Frame
@@ -4121,6 +4127,15 @@ set_beam_defaults 10000000, 2000, 900000000000000000, 90000000000000000000000000
   467,   75, i
   467,   17, i
   467,   43, i
+;Gooseneck hitch
+550, 71, i
+20, 550, i
+550, 46, i
+68, 550, i
+72, 550, i
+550, 41, i
+47, 550, i
+
 
 ;Front Sway Bar
 set_beam_defaults 12000000, 2000, 150000, 20000000000, 0.02, tracks/beamblack, 1
@@ -4711,14 +4726,14 @@ set_node_defaults -1, 0.95, -1, -1
 
 ;Tires
 flexbodies
-104, 109, 552, 0, 0, 0, 0, 0, 0, superduty_14_tire.mesh 
-forset 109, 104, 552-591
-94, 99, 592, 0, 0, 0, 0, 0, 0, superduty_14_tire.mesh
-forset 99, 94, 592-631
-128, 132, 632, 0, 0, 0, 0, 0, 0, superduty_14_tire.mesh 
-forset 132, 128, 632-671
-122, 126, 672, 0, 0, 0, 0, 0, 0, superduty_14_tire.mesh 
-forset 126, 122, 672-711
+104, 109, 553, 0, 0, 0, 0, 0, 0, superduty_14_tire.mesh 
+forset 109, 104, 553-592
+94, 99, 593, 0, 0, 0, 0, 0, 0, superduty_14_tire.mesh
+forset 99, 94, 593-632
+128, 132, 633, 0, 0, 0, 0, 0, 0, superduty_14_tire.mesh 
+forset 132, 128, 633-672
+122, 126, 673, 0, 0, 0, 0, 0, 0, superduty_14_tire.mesh 
+forset 126, 122, 673-712
 
 axles
 w1(104 109), w2(94 99), d(sol)
@@ -4758,6 +4773,8 @@ forset 90,91,127,133
 forset 464-467,19,17,45,43
   148,  146,  147, 0, -2.1, 0, 0, 0, 0, 14ford_hitch.mesh
 forset 464-467,19,17,45,43
+  148,  146,  147, 0, -2.1, 0, 0, 0, 0, ford_goose.mesh
+forset 0-81
 
 ;CAB
   148,  146,  147, 0, 0, 0, 0, 0, 0, F250SC-Cab.mesh
